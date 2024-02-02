@@ -38,3 +38,4 @@ scripts/kconfig/
 
 # Patterns specific to project or build system
 *.patch
+git-batch-push.sh
