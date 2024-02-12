@@ -1571,7 +1571,7 @@ include/config/auto.conf: $(deps_config)
 ifneq "$(ARCH)" "x86"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(KERNELVERSION)" "6.8.0-rc2"
+ifneq "$(KERNELVERSION)" "6.8.0-rc3"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(CC)" "clang"
