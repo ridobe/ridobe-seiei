@@ -1,6 +1,6 @@
 /*
  * Automatically generated file; DO NOT EDIT.
- * Linux/x86 6.8.0-rc3 Kernel Configuration
+ * Linux/x86 6.8.0-rc4 Kernel Configuration
  */
 #define CONFIG_IP6_NF_MATCH_AH_MODULE 1
 #define CONFIG_RING_BUFFER 1
@@ -853,6 +853,7 @@
 #define CONFIG_BT_ATH3K_MODULE 1
 #define CONFIG_PCPU_DEV_REFCNT 1
 #define CONFIG_LEDS_TRIGGER_TIMER_MODULE 1
+#define CONFIG_EXTRA_FIRMWARE_DIR "/lib/firmware"
 #define CONFIG_MCB_PCI_MODULE 1
 #define CONFIG_DRM_VIRTIO_GPU_MODULE 1
 #define CONFIG_RTC_DRV_M48T59_MODULE 1
@@ -2658,7 +2659,7 @@
 #define CONFIG_ACPI_WMI_MODULE 1
 #define CONFIG_NETFILTER_XT_TARGET_DSCP_MODULE 1
 #define CONFIG_SND_EMU10K1X_MODULE 1
-#define CONFIG_EXTRA_FIRMWARE ""
+#define CONFIG_EXTRA_FIRMWARE "amd-ucode/microcode_amd_fam19h.bin"
 #define CONFIG_TCG_TPM 1
 #define CONFIG_SND_SOC_SIMPLE_MUX_MODULE 1
 #define CONFIG_SPI_SLAVE_SYSTEM_CONTROL_MODULE 1
