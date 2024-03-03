@@ -150,6 +150,11 @@ kernel/drivers/scsi/sd_mod.ko
 kernel/drivers/ata/libata.ko
 kernel/drivers/ata/ahci.ko
 kernel/drivers/ata/libahci.ko
+kernel/drivers/net/phy/mdio_devres.ko
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/fixed_phy.ko
+kernel/drivers/net/mdio/acpi_mdio.ko
+kernel/drivers/net/mdio/fwnode_mdio.ko
 kernel/drivers/net/wwan/wwan.ko
 kernel/drivers/usb/common/usb-common.ko
 kernel/drivers/usb/core/usbcore.ko
@@ -188,6 +193,7 @@ kernel/drivers/virt/vmgenid.ko
 kernel/drivers/extcon/extcon-core.ko
 kernel/drivers/android/binder.ko
 kernel/net/core/drop_monitor.ko
+kernel/net/core/selftests.ko
 kernel/net/sched/act_police.ko
 kernel/net/sched/act_gact.ko
 kernel/net/sched/act_mirred.ko
