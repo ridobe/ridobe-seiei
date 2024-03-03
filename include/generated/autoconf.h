@@ -1,6 +1,6 @@
 /*
  * Automatically generated file; DO NOT EDIT.
- * Linux/x86 6.8.0-rc6 Kernel Configuration
+ * Linux/x86 6.8.0-rc7 Kernel Configuration
  */
 #define CONFIG_IP6_NF_MATCH_AH_MODULE 1
 #define CONFIG_RING_BUFFER 1
