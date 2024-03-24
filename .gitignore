@@ -54,6 +54,11 @@
 *.tar
 *.xz
 *.zst
+<<<<<<< HEAD
+=======
+Module.symvers
+dtbs-list
+>>>>>>> v6.9-rc1
 modules.order
 Module.symvers
 

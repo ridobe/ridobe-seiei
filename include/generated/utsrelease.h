@@ -1,1 +1,1 @@
-#define UTS_RELEASE "6.8.0-ridobe-seiei+"
+#define UTS_RELEASE "6.9.0-rc1-ridobe-seiei+"

@@ -42,6 +42,8 @@ kernel/crypto/crc32c_generic.ko
 kernel/crypto/crct10dif_common.ko
 kernel/crypto/crct10dif_generic.ko
 kernel/crypto/crc64_rocksoft_generic.ko
+kernel/crypto/lzo.ko
+kernel/crypto/lzo-rle.ko
 kernel/crypto/rng.ko
 kernel/crypto/drbg.ko
 kernel/crypto/jitterentropy_rng.ko
