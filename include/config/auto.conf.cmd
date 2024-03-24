@@ -1571,7 +1571,7 @@ include/config/auto.conf: $(deps_config)
 ifneq "$(ARCH)" "x86"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(KERNELVERSION)" "6.8.0-rc7"
+ifneq "$(KERNELVERSION)" "6.8.0"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(CC)" "clang"
@@ -1586,7 +1586,7 @@ endif
 ifneq "$(CLANG_FLAGS)" "--target=x86_64-linux-gnu -fintegrated-as -Werror=unknown-warning-option -Werror=ignored-optimization-argument -Werror=option-ignored -Werror=unused-command-line-argument"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(CC_VERSION_TEXT)" "clang version 16.0.6"
+ifneq "$(CC_VERSION_TEXT)" "clang version 17.0.6"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(NM)" "nm"
