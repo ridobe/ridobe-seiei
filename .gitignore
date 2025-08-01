@@ -40,11 +40,11 @@
 *.o
 *.o.*
 *.patch
-*.pyc
 *.rmeta
 *.rpm
 *.rsi
 *.s
+*.sh
 *.so
 *.so.dbg
 *.su
@@ -55,6 +55,7 @@
 *.zst
 Module.symvers
 dtbs-list
+builtin.order
 modules.order
 
 #
@@ -66,9 +67,10 @@ modules.order
 /vmlinux.32
 /vmlinux.map
 /vmlinux.symvers
-/vmlinux.unstripped
+/vmlinux.thinlto-index
 /vmlinux-gdb.py
 /vmlinuz
+vmlinux.unstripped
 /System.map
 /Module.markers
 /modules.builtin
@@ -114,7 +116,6 @@ modules.order
 !.gitignore
 !.kunitconfig
 !.mailmap
-!.pylintrc
 !.rustfmt.toml
 
 #
