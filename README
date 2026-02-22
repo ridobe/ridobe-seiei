@@ -1,3 +1,0 @@
-This repository hosts a personal fork of the Linux kernel, based on mainline from kernel.org, 
-for experimentation, custom patches, and learning kernel development. It includes tools and 
-configurations for building and testing on Arch linux and optimized for Ryzen processors.
