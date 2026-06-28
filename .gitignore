@@ -48,6 +48,7 @@
 *.sh
 *.so
 *.so.dbg
+*.spdx.json
 *.su
 *.symtypes
 *.tab.[ch]
@@ -69,6 +70,10 @@ modules.order
 /vmlinux.map
 /vmlinux.symvers
 /vmlinux.thinlto-index
+<<<<<<< HEAD
+=======
+/vmlinux.unstripped
+>>>>>>> v7.2-rc1
 /vmlinux-gdb.py
 /vmlinuz
 vmlinux.unstripped
@@ -185,6 +190,9 @@ sphinx_*/
 
 # Rust analyzer configuration
 /rust-project.json
+
+# rustc error message long types
+*.long-type-*.txt
 
 # bc language scripts (not LLVM bitcode)
 !kernel/time/timeconst.bc
