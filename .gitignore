@@ -70,10 +70,7 @@ modules.order
 /vmlinux.map
 /vmlinux.symvers
 /vmlinux.thinlto-index
-<<<<<<< HEAD
-=======
 /vmlinux.unstripped
->>>>>>> v7.2-rc1
 /vmlinux-gdb.py
 /vmlinuz
 vmlinux.unstripped
